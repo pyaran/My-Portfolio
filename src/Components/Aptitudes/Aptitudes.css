@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #333;
+}
+.mis-aptitudes{
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(56, 54, 54);
+}
+.header{
+text-align: center;
+color: #fff;
+padding: 1rem;
+position: relative;
+}
+.header::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 100px;
+    background-color: #2ecc71;
+}
+.aptitudes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+}
+.skill-box{
+    padding: 1rem;
+    color: #ddd;
+    cursor: pointer;
+}
+.skill-tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    pad: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 45px ;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-tittle{
+    color: #fff;
+    margin: 0.5rem;
+}
+.skill-icon{
+    width: 100px;
+}
+
+@media screen and (max-width: 990px){
+    .aptitudes{
+        grid-template-columns: repeat(2,1fr);
+        padding: 2rem 50px;
+    }
+    
+}
+
+@media screen and (max-width: 650px){
+    .aptitudes{
+        grid-template-columns: 1fr;
+        
+    }
+    
+}

@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+.graybg{
+  background-color: rgb(31, 30, 30);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.card{
+  display: flex;
+  color: azure;
+  background: rgb(31, 30, 30);
+  border: none;
+}
+.card-title{
+  color: #2ecc71;;
+}
+.paragraph{
+  font-size: 20px;
+}

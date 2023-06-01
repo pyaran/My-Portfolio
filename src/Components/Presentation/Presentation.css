@@ -1,0 +1,27 @@
+.presentation{
+    padding-top: 20px;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.nombre{
+    color: #2ecc71;
+}
+.pin{
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+.keyboard{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.mail{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.phone{
+    font-size: 20px;
+    font-family: sans-serif;
+}
