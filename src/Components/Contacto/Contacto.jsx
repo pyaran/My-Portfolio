@@ -84,7 +84,7 @@ function NewContacto () {
                 </div>
                 <div className="mb-3">
                     <label htmlFor="mensaje" className="form-label">Tu mensaje</label>
-                    <textarea  name="mensaje" placeholder="Enter text"  onChange={setContactoObj}></textarea>
+                    <textarea  name="mensaje"  onChange={setContactoObj}></textarea>
                 </div>
                 <div className="d-grid col-5 mx-auto register-button">
                     <button type="button" className="btn btn-danger m-3 rounded-pill boton" onClick={enviar}>Enviar</button>
