@@ -1,6 +1,5 @@
 import './App.css';
 import NewNavbar from './Components/Navbar/Navbar';
-import NewAboutMe from './Components/AboutMe/AboutMe';
 import NewMain from './Components/Main/Main';
 import NewFooter from './Components/Footer/Footer';
 import {
@@ -22,7 +21,7 @@ function App() {
             <Route path='/' element={<NewMain/>}/>
           </Routes>
           <Routes>
-            <Route path='/aboutme' element={<NewAboutMe/>}/>
+           <Route path='/Certificaciones' element={<NewMain/>}/>
           </Routes>
         </div>
         <NewFooter/>
