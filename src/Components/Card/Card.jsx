@@ -14,13 +14,13 @@ function NewCard (){
                         <div className="card-body">
                             <h1 className="card-title">sobre mi</h1>
                             <p className="paragraph">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt omnis distinctio, quae obcaecati ea aliquam soluta iusto accusantium autem quam exercitationem tempora ut amet molestiae error recusandae. Aut, modi sed.
+                            Soy un apasionado desarrollador front-end con experiencia en el stack MERN, listo para impulsar proyectos innovadores y cautivar a los usuarios con interfaces atractivas y funcionales.
                             </p>
                             <p className="paragraph">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ea nulla illo, rerum porro, earum quo laborum iste quis obcaecati ipsa est delectus. Dignissimos deserunt ratione repellendus provident! Cupiditate, sapiente!
+                            Mi enfoque se centra en crear experiencias web impactantes y accesibles para todos los usuarios. Estoy familiarizado/a con la metodología ágil de Scrum, lo que me permite colaborar eficientemente en equipos, adaptarme rápidamente a los cambios y entregar resultados de calidad en cada iteración. Además, mi experiencia en diseño responsive me permite asegurar que las aplicaciones que desarrollo se vean y funcionen de manera óptima en todos los dispositivos y tamaños de pantalla.
                             </p>
                             <p className="paragraph">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ducimus aut tempora doloremque voluptas facilis! Facere totam dolorum dolorem ipsam soluta in, beatae, vero numquam vel, perferendis sed veniam sunt!
+                            Soy un apasionado del aprendizaje constante y siempre estoy buscando nuevos conocimientos para llevar mis habilidades al siguiente nivel. Me encanta explorar las últimas tendencias y tecnologías, lo cual me permite ofrecer soluciones innovadoras y mantenerme al tanto de las mejores prácticas en el desarrollo front-end. Estoy emocionado/a de enfrentar nuevos desafíos y aplicar mi entusiasmo por el crecimiento profesional en cada proyecto en el que participo.
                             </p>
                         </div>
                     </div>
