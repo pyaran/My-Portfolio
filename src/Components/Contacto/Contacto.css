@@ -25,6 +25,7 @@ form{
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
+    font-family: 'Noto Sans', sans-serif;
 }
 textarea{
     width: 100%;

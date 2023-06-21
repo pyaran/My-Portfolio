@@ -1,6 +1,7 @@
 .main-page{
  background-repeat: no-repeat;
  background-size: cover;
+ font-family: 'Noto Sans', sans-serif;
 }
 span{
     display: flex;

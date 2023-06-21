@@ -10,18 +10,26 @@
 }
 .pin{
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 
 }
 .keyboard{
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 .mail{
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 .phone{
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+.nombre::before{
+    content: "<";
+    color: dimgrey;
+}
+.nombre::after{
+    content: "/>";
+    color: dimgrey;
 }
