@@ -6,12 +6,12 @@
 i{
     margin: 20px;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 75px;
+    font-size: 45px;
 
 }
 .linkedin{
-    width: 74px;
-    height: 75px;
+    width: 44px;
+    height: 45px;
     position: relative;
     border-radius: 45px;
     background-color: #fff;
@@ -20,8 +20,8 @@ i{
     align-items: center;
 }
 .whatsapp{
-    width: 74px;
-    height: 73px;
+    width: 44px;
+    height: 43px;
     position: relative;
     border-radius: 45px 45px;
     background-color: #fff;
