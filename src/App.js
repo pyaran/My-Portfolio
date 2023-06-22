@@ -6,7 +6,6 @@ import NewCertificacion from './Components/Certificados/Certificados';
 import {
   BrowserRouter as Router,
   Route,
-  redirect,
   Routes
 } from "react-router-dom";
 
