@@ -5,19 +5,19 @@
   font-family: 'Noto Sans', sans-serif;
 }
 .graybg{
-  background-color: rgb(31, 30, 30);
+  background-color: rgb(5, 23, 38);
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 .card{
   display: flex;
   color: azure;
-  background: rgb(31, 30, 30);
+  background: rgb(5, 23, 38);
   border: none;
 }
 .card-title{
   padding-left: 1rem;
-  color: #2ecc71;;
+  color: #2ecc71;
 }
 .paragraph{
   padding-left: 1rem;
