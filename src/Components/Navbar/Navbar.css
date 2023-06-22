@@ -2,14 +2,17 @@
 .nav{
     background-color: rgb(6, 19, 29);
     color: whitesmoke;
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    gap: 2rem;
-    padding: 0 1rem;
     border: 1px;
     border-color: rgb(56, 54, 54);
     border-bottom-style: solid;
+    padding-bottom: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
 }
 .nav a{
 font-family: 'Noto Sans', sans-serif;
@@ -20,7 +23,6 @@ display: flex;
 align-items: center ;
 padding: .25rem;
 }
-
 .nav ul{
     padding: 0;
     margin: 0;
@@ -36,7 +38,52 @@ transform: scale(110%);
 color: #2ecc71;
 transition:  .2s ease-in;
 }
-.site-name{
-font-size: 3rem;
-font-family: 'Times New Roman', Times, serif;
+@media screen and (max-width: 575px){
+    .nav ul{
+        
+        font-size: 28px;
+        
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .nav ul{
+        
+        font-size: 22px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 410px){
+    .nav ul{
+        
+        font-size: 15px;
+        
+    }
+    
+}
+@media screen and (max-width: 310px){
+    .nav ul{
+        
+        font-size: 10px;
+        
+    }
+    
+}
+@media screen and (max-width: 235px){
+    .nav ul{
+        
+        font-size: 8px;
+        
+    }
+    
+}
+@media screen and (max-width: 205px){
+    .nav ul{
+        
+        font-size: 7px;
+        
+    }
+    
 }

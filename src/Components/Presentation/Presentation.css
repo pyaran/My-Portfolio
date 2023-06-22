@@ -1,29 +1,13 @@
 .presentation{
     background-color: rgb(5, 23, 38);
     padding-top: 20px;
-    color: azure;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 20px;
+    
 }
 .nombre{
     color: #2ecc71;
 }
-.pin{
+.icono{
     font-size: 20px;
-    font-family: 'Noto Sans', sans-serif;
-}
-.keyboard{
-    font-size: 20px;
-    font-family: 'Noto Sans', sans-serif;
-}
-.mail{
-    font-size: 20px;
-    font-family: 'Noto Sans', sans-serif;
-}
-.phone{
-    font-size: 20px;
-    font-family: 'Noto Sans', sans-serif;
 }
 .nombre::before{
     content: "<";
@@ -33,3 +17,52 @@
     content: "/>";
     color: dimgrey;
 }
+.contenido{
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 460px){
+    .icono{
+        font-size: 15px;
+        
+    }
+    
+}
+@media screen and (max-width: 365px){
+    .icono{
+        font-size: 12px;
+        
+    }
+    
+}
+@media screen and (max-width: 310px){
+    .icono{
+        font-size: 9px;
+        
+    }
+    
+}
+@media screen and (max-width: 310px){
+    .icono{
+        font-size: 9px;
+        
+    }
+    
+}
+@media screen and (max-width: 250px){
+    .icono{
+        font-size: 7px;
+        
+    }
+    
+}
+@media screen and (max-width: 212px){
+    .icono{
+        font-size: 5px;
+        
+    }
+    
+}
+

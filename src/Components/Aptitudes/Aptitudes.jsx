@@ -16,7 +16,7 @@ function NewAptitudes () {
     return(
         <div className="mis-aptitudes">
             <div className="header">
-                <h1> Mis aptitudes</h1>
+                <h1> MIS APTITUDES</h1>
             </div>
             <div className="container aptitudes">
             <div className="skill-box">

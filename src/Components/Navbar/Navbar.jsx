@@ -4,15 +4,20 @@ import { Link } from "react-router-dom";
 function NewNavbar () {
     return(
        <nav className="nav sticky-top">
-           <Link to="/" className="site-name">Home</Link>
-            <ul>
-                <li>
-                    <Link to="/Certificaciones">Certificaciones </Link>
-                </li>
-                <li>
-                    <Link to="/Proyectos">Proyectos</Link>
-                </li>
-            </ul>
+            <div className="navbar container-fluid">
+                <ul>
+                    <li>
+                    <Link to="/" className="site-name">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/Certificaciones">Certificaciones </Link>
+                    </li>
+                    <li>
+                        <Link to="/Proyectos">Proyectos</Link>
+                    </li>
+                </ul>
+            </div>
+            
        </nav>
     );
     
