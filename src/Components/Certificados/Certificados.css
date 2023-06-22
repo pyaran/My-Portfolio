@@ -1,5 +1,6 @@
 *{
     font-family: 'Noto Sans', sans-serif;
+    
 }
 .certificados-h1{
     color:#fff;
@@ -7,4 +8,10 @@
     padding-top: 1rem;
     text-decoration: underline;
     text-decoration-color: #2ecc71;
+}
+.certificados{
+    background-color: rgb(5, 23, 38);
+}
+hr{
+    color: #fff;
 }

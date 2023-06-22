@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./Contacto.css"
 function NewContacto () {
@@ -66,7 +65,7 @@ function NewContacto () {
 
         <div className="Contacto">
            <div className ="titulo">
-                <h1>GET IN TOUCH</h1>
+                <h1>COMUNICATE CONMIGO</h1>
            </div>
             <div className="container">
             <form id="formContacto">
