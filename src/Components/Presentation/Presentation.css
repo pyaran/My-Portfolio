@@ -1,0 +1,35 @@
+.presentation{
+    background-color: rgb(5, 23, 38);
+    padding-top: 20px;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.nombre{
+    color: #2ecc71;
+}
+.pin{
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.keyboard{
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.mail{
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.phone{
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.nombre::before{
+    content: "<";
+    color: dimgrey;
+}
+.nombre::after{
+    content: "/>";
+    color: dimgrey;
+}
