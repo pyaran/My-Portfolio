@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import "./Contacto.css"
 function NewContacto () {
 
-    const emailRegexp = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
+    const emailRegexp = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     const LettersRegexp = /[a-z]/g;
 
     let formulario = document.querySelector("#formContacto");
