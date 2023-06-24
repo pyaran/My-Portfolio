@@ -18,7 +18,7 @@ function NewCard (){
                             </p>
                             
                             <p className="paragraph">
-                            Soy un entusiasta del aprendizaje constante y siempre estoy buscando nuevos conocimientos para llevar mis habilidades al siguiente nivel. Estoy emocionado/a de enfrentar nuevos desafíos y aplicar mi entusiasmo por el crecimiento profesional en cada proyecto en el que participo.
+                            Soy un entusiasta del aprendizaje constante y siempre estoy buscando nuevos conocimientos para llevar mis habilidades al siguiente nivel. Estoy emocionado de enfrentar nuevos desafíos y aplicar mi entusiasmo por el crecimiento profesional en cada proyecto en el que participo.
                             </p>
                         </div>
                     </div>

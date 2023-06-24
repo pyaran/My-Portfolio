@@ -1,0 +1,11 @@
+.proyectos{
+    background-color: rgb(5, 23, 38);
+}
+.proyecto{
+    border: 3px solid white;
+    margin: 10px;
+}
+.contenido-card{
+    display: grid;
+    justify-content: center;
+}

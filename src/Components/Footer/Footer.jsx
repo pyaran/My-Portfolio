@@ -2,7 +2,7 @@ import "./Footer.css";
 function NewFooter (){
 
     return(
-        <div className="footer ">
+        <div className="sticky-footer">
             <div className="redes">
                 <div className="Linkedin">
                     <a href="https://www.linkedin.com/in/sjmontilla/" target="_blank" rel="noreferrer"><i className="bi bi-linkedin linkedin text-primary"></i></a>
