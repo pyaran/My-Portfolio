@@ -20,8 +20,6 @@ function NewProyecto () {
                 <div className="card-body contenido-card">
                     <h1 className="card-title titulo-card">E-Commerce Showroom</h1>
                     <h2 className="card-text">Proyecto Personal</h2>
-                    <p className="card-text">Si sos un apasionado de la cocina o solo estas buscando nuevos sabores, en Recetapp vas a encontrar la receta ideal para vos.</p>
-                    <a href="https://testing--recetapp-comision-8i.netlify.app/" target="_blank" rel="noreferrer" className="btn btn-primary boton-card">Ir a Recetapp</a>
                 </div>
             </div>
             
