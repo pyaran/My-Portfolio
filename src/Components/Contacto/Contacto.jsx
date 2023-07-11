@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import "./Contacto.css"
+import Swal from "sweetalert2";
 function NewContacto () {
 
     const emailRegexp = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
@@ -31,20 +32,38 @@ function NewContacto () {
    let sendEmail = ()=>{
     emailjs.send("service_et15nov", "template_xlrdrwb", parametros, "54bUeuGNA82-XdtyT")
     .then(function(response) {
-        alert("Se envio el correo con exito");
+        Swal.fire({
+            position: 'top',
+            icon: 'success',
+            title: 'Su mensaje fue enviado con exito',
+            showConfirmButton: false,
+            timer:1500
+        })
      });
    } 
 
    const enviar = ()=>{
 
     if ((LettersRegexp.test(contacto.nombre) === false) || contacto.nombre === ""){
-        alert("Nombre invalido");
+        Swal.fire({
+            icon: 'error',
+            title: "Nombre invalido",
+            text: 'Por favor, ingrese su nombre (Solo letras)',
+        })
     }
     else if(emailRegexp.test(contacto.email) === false || contacto.email === "" ){
-        alert("Email invalido");
+        Swal.fire({
+            icon: 'error',
+            title: "Email invalido",
+            text: 'Por favor, ingrese una direccion de correo valida',
+        })
     }
     else if(contacto.mensaje ===""){
-        alert("Por favor escriba su mensaje");
+        Swal.fire({
+            icon: 'warning',
+            title: "No olvide su mensaje!",
+            text: 'Por favor, escriba su mensaje',
+        })
     }
     else{
         sendEmail();
@@ -56,8 +75,6 @@ function NewContacto () {
             mensaje:""
         })
     }
-
-    
 }
    
 
