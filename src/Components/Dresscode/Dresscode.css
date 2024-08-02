@@ -1,0 +1,34 @@
+.dresscode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icono-vestido{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.titulo-dresscode{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.subtitulo-dresscode{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.subtitulo-dresscode > h2{
+background-color: rgb(255, 242, 254);
+border: 2px solid; 
+padding: 15px;
+display: inline-block;
+border-radius: 180px;
+}
+.info-dresscode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

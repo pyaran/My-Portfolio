@@ -1,22 +1,22 @@
 import "./Presentation.css" 
+import background from "./imagenes/Fondo-Invitacion-casamiento.jpg"
 function NewPresentation(){
     
     return(
-        <div className="presentation">
-            <div className="container">
-                <div className="contenido">
-                    <h1 className="Hola">Hola, mi nombre es</h1>
-                    <br />
-                    <h1 className="nombre">Santiago Jimenez Montilla</h1>
-                    <hr />
-                    <i className="icono bi bi-keyboard-fill keyboard"> Desarrollador Front-end</i>
-                    <i className="icono bi bi-geo-alt-fill pin"> San Miguel De Tucuman - Argentina</i>
-                    <i className="icono bi bi-envelope mail"> santiagojimenezmontilla@gmail.com</i>
-                    <i className="icono bi bi-telephone phone"> 0381-5127458</i>
-                    <hr />
-                </div>
+        <div className="container-fluid presentacion">
+            <div className="container contenido">
+            <div className="titulo">
+                <h1 >Juli</h1>
+                <h1 >&</h1>
+                <h1 >Edgar</h1>
             </div>
+            <div className="fecha">
+                <h2>14-09-2024</h2>
+            </div>
+            </div>
+           
         </div>
+       
     )
 }
 

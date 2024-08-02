@@ -1,68 +1,31 @@
-.presentation{
-    background-color: rgb(5, 23, 38);
-    padding-top: 20px;
+.presentacion{
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
     
 }
-.nombre{
-    color: #2ecc71;
+.titulo{
+    padding-top: 100px;
+    padding-bottom: 120px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
 }
-.icono{
+.fecha{
+    display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.titulo>h1{
+    font-size: 30px;
+}
+.fecha>h2{
     font-size: 20px;
 }
-.nombre::before{
-    content: "<";
-    color: dimgrey;
-}
-.nombre::after{
-    content: "/>";
-    color: dimgrey;
-}
-.contenido{
-    color: azure;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 20px;
-}
-@media screen and (max-width: 460px){
-    .icono{
-        font-size: 15px;
-        
-    }
-    
-}
-@media screen and (max-width: 365px){
-    .icono{
-        font-size: 12px;
-        
-    }
-    
-}
-@media screen and (max-width: 310px){
-    .icono{
-        font-size: 9px;
-        
-    }
-    
-}
-@media screen and (max-width: 310px){
-    .icono{
-        font-size: 9px;
-        
-    }
-    
-}
-@media screen and (max-width: 250px){
-    .icono{
-        font-size: 7px;
-        
-    }
-    
-}
-@media screen and (max-width: 212px){
-    .icono{
-        font-size: 5px;
-        
-    }
-    
-}
-

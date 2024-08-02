@@ -1,42 +1,27 @@
-.titulo{
-text-align: center;
-color: #2ecc71;
-padding: 1rem;
-position: relative;
-}
-.titulo::after{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 100px;
-    background-color: #2ecc71;
-}
-.form-label{
-color: #2ecc71;
-font-size: 2rem;
-}
-.form-control{
-    font-size: 1.5rem;
-}
-form{
+.contacto{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    font-size: 1.5rem;
-    font-family: 'Noto Sans', sans-serif;
 }
-textarea{
-    width: 100%;
-    height: 150px;
+.ubicacion2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.boton{
-background-color: #2ecc71;
-border: none;
-color: black;
-font-size: 1.5rem;
+.como-llegar2{
+    margin-top: 20px;
+    font-size: 2rem;
+    background-color: antiquewhite;
+    border: 1px solid;
+    border-radius: 20px;
 }
-.Contacto{
-    background-color: rgb(5, 23, 38);
+.icono-anillo{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.ceremonia-civil{
+    margin-top: 30px;
+    margin-bottom: 40px;
 }

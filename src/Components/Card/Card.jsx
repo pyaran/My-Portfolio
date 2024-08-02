@@ -1,33 +1,33 @@
-import image1 from "./CardImgs/icon.png";  
 import "./Card.css"; 
 
 function NewCard (){
     return(
-    <div className="graybg">
-        <div className="container">
-            <div className="card mb-3" >
-                <div className="row g-0">
-                    <div className="col-md-4 imagen">
-                        <img src={image1} className="img-fluid rounded-start" alt="..."/>
-                    </div>
-                    <div className="col-md-8">
-                        <div className="card-body text-center">
-                            <h1 className="card-title">SOBRE MI</h1>
-                            <p className="paragraph">
-                            Soy un desarrollador front-end con experiencia en el stack MERN, listo para impulsar proyectos innovadores con interfaces atractivas y funcionales.
-                            </p>
-                            
-                            <p className="paragraph">
-                            Soy un entusiasta del aprendizaje constante y siempre estoy buscando nuevos conocimientos para llevar mis habilidades al siguiente nivel. Estoy emocionado de enfrentar nuevos desafíos y aplicar mi entusiasmo por el crecimiento profesional en cada proyecto en el que participo.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+        <div className='container card'>
+            <div className='icono-copas'>
+                <h2>
+                icono de copas
+                </h2>
             </div>
-        </div>
-    </div>
+            <div className='fiesta'>
+                <h1>
+                Fiesta
+                </h1>
+            </div>
+            <div className='ubicacion3'>
+                <p>
+                Salon Canzonieri Park
+                </p>
+                <p>
+                22 Hs
+                </p>
+            </div>
+            <div>
+                <a href="https://www.google.com/maps/place/Canzonieri+park/@-26.8075885,-65.3252861,17z/data=!3m1!4b1!4m6!3m5!1s0x942243e00ed4b3eb:0xa64ea21de74defe9!8m2!3d-26.8075885!4d-65.3252861!16s%2Fg%2F11gyzkh7f0?entry=ttu" target="_blank" rel="noreferrer">
+                <button className="como-llegar">Como llegar</button>
+                </a>
+            </div>
+      </div>
     )
-
     
 }
 

@@ -1,12 +1,4 @@
 .main-page{
- background-repeat: no-repeat;
- background-size: cover;
- font-family: 'Noto Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
-span{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-

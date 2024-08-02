@@ -16,19 +16,9 @@ function App() {
   return (
     <Router>
       <div>
-        <NewNavbar/>
-        <div>
         <Routes>
             <Route path='/' element={<NewMain/>}/>
           </Routes>
-          <Routes>
-           <Route path='/Certificaciones' element={<NewCertificacion/>}/>
-          </Routes>
-          <Routes>
-            <Route path='/Proyectos' element={<NewProyecto/>}></Route>
-          </Routes>
-        </div>
-        <NewFooter/>
       </div>
     </Router>
   );
