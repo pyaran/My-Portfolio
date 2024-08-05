@@ -34,14 +34,14 @@
   /* Responsive Design */
   @media (max-width: 768px) {
     .carousel-title {
-      font-size: 20px; /* Adjust font size for tablets and smaller screens */
+      font-size: 30px; /* Adjust font size for tablets and smaller screens */
       margin-bottom: 15px; /* Adjust spacing for smaller screens */
     }
   }
   
   @media (max-width: 480px) {
     .carousel-title {
-      font-size: 18px; /* Further adjust font size for mobile screens */
+      font-size: 25px; /* Further adjust font size for mobile screens */
       margin-bottom: 10px; /* Adjust spacing for mobile screens */
     }
   }

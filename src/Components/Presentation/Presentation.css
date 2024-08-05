@@ -1,68 +1,55 @@
-.presentation{
-    background-color: rgb(5, 23, 38);
-    padding-top: 20px;
-    
+body {
+    font-family: 'Merienda', cursive; /* Apply the Merienda font */
+    color: #000000; /* Set text color to black */
+    margin: 0;
+    padding: 0;
 }
-.nombre{
-    color: #2ecc71;
+
+/* Example of other styling */
+h1, h2, h3, h4, h5, h6 {
+    color: #000000; /* Ensure headers are also black */
 }
-.icono{
-    font-size: 20px;
+
+p {
+    color: #000000; /* Ensure paragraphs are black */
 }
-.nombre::before{
-    content: "<";
-    color: dimgrey;
+h1, h2, h3 {
+    font-family: 'Merienda', cursive;
+    color: #000000;
 }
-.nombre::after{
-    content: "/>";
-    color: dimgrey;
+
+p, li {
+    font-family: 'Merienda', cursive;
+    color: #000000;
 }
-.contenido{
-    color: azure;
+
+.presentacion{
+    background-repeat: no-repeat;
+    background-size:cover;
     display: flex;
-    flex-direction: column;
-    padding-bottom: 20px;
-}
-@media screen and (max-width: 460px){
-    .icono{
-        font-size: 15px;
-        
-    }
+    justify-content: center;
     
 }
-@media screen and (max-width: 365px){
-    .icono{
-        font-size: 12px;
-        
-    }
-    
+.titulo{
+    padding-top: 100px;
+    padding-bottom: 120px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
 }
-@media screen and (max-width: 310px){
-    .icono{
-        font-size: 9px;
-        
-    }
-    
+.titulo > h1{
+    font-size: 45px;
 }
-@media screen and (max-width: 310px){
-    .icono{
-        font-size: 9px;
-        
-    }
-    
+.fecha1{
+    display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 }
-@media screen and (max-width: 250px){
-    .icono{
-        font-size: 7px;
-        
-    }
-    
-}
-@media screen and (max-width: 212px){
-    .icono{
-        font-size: 5px;
-        
-    }
-    
+.fecha1 > h1{
+    text-align: center;
 }
 

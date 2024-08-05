@@ -1,0 +1,205 @@
+/* Existing Styles */
+
+.Regalo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .icono-regalo {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border-radius: 45px;
+    background-color: #d4a5a5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .datos-regalo {
+    margin-bottom: 60px;
+    background-color: #d4a5a5; /* Soft blush pink */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .datos-regalo:hover {
+    background-color: #c69494; /* Slightly darker for hover effect */
+  }
+  
+  .titulo-regalo {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .info-regalo > h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .info-regalo {
+    margin-bottom: 60px;
+  }
+  /* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Less dark overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Lighter overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  /* Modal Container */
+  .modal-container {
+    background: #fff; /* White background for the modal wrapper */
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%; /* Responsive width */
+    max-width: 500px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: auto; /* Ensure scrolling if content overflows */
+  }
+  
+  /* Close Button */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem; /* Larger close button */
+    color: #000; /* Black color */
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    z-index: 1100; /* Make sure it is above the content */
+  }
+  
+ /* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Lighter overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  /* Modal Container */
+  .modal-container {
+    background: #fff; /* White background for the modal wrapper */
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%; /* Responsive width */
+    max-width: 500px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: auto; /* Ensure scrolling if content overflows */
+  }
+  
+  /* Close Button */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem; /* Larger close button */
+    color: #000; /* Black color */
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    z-index: 1100; /* Ensure it is above the content */
+  }
+  
+  /* Modal Fields */
+  .modal-fields {
+    margin-top: 40px; /* Space for the close button */
+  }
+  
+  .field {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f1f1f1; /* Light grey background for each field */
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .field strong {
+    font-weight: bold;
+  }
+  
+  .field button {
+    background: #d4a5a5; /* Soft blush pink */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .field button:hover {
+    background: #c69494; /* Slightly darker for hover effect */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .modal-container {
+      width: 95%; /* Adjust modal width for smaller screens */
+      padding: 15px; /* Adjust padding for smaller screens */
+    }
+  
+    .close-button {
+      font-size: 1.5rem; /* Smaller close button on small screens */
+    }
+  
+    .modal-fields {
+      margin-top: 30px; /* Adjust margin for smaller screens */
+    }
+  
+    .field {
+      flex-direction: column; /* Stack content vertically on smaller screens */
+      align-items: flex-start;
+    }
+  
+    .field button {
+      margin-top: 10px; /* Space between field content and button */
+    }
+  }
+  
