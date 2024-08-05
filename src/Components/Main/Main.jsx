@@ -12,7 +12,6 @@ import NewFotos from "../Fotos/Fotos";
 import NewAsistencia from "../Asistencia/Asistencia";
 import NewFecha from "../Fecha/Fecha";
 import React from 'react';
-import ReactDOM from 'react-dom';
 import background from "./Images/flores2.jfif"
 import "./Main.css";
 function NewMain () {
