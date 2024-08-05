@@ -8,6 +8,7 @@ body {
 /* Example of other styling */
 h1, h2, h3, h4, h5, h6 {
     color: #000000; /* Ensure headers are also black */
+    font-weight: 300 !important;
 }
 
 p {
@@ -15,11 +16,13 @@ p {
 }
 h1, h2, h3 {
     font-family: 'Merienda', cursive;
+    font-weight: 300;
     color: #000000;
 }
 
 p, li {
     font-family: 'Merienda', cursive;
+    font-weight: 300;
     color: #000000;
 }
 
@@ -37,8 +40,8 @@ p, li {
    flex-direction: column;
    align-items: center;
    justify-content: center;
-    font-family:'Times New Roman', Times, serif;
     font-style: italic;
+    font-weight: 300;
 }
 .titulo > h1{
     font-size: 45px;
