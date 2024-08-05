@@ -1,0 +1,48 @@
+/* Container for the carousel and title */
+.container-fluid.carousel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  /* Title styling */
+  .carousel-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 50px; /* Space between title and carousel */
+  }
+  
+  /* Carousel container styling */
+  .carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Ensure full width responsiveness */
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Style for images to cover the carousel container */
+  .carousel-image {
+    object-fit: cover; /* Cover the entire carousel item without distortion */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .carousel-title {
+      font-size: 20px; /* Adjust font size for tablets and smaller screens */
+      margin-bottom: 15px; /* Adjust spacing for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .carousel-title {
+      font-size: 18px; /* Further adjust font size for mobile screens */
+      margin-bottom: 10px; /* Adjust spacing for mobile screens */
+    }
+  }
+  
